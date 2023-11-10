@@ -7,7 +7,6 @@ from esphome.const import (
 )
 import esphome.config_validation as cv
 
-# 这里包含的引脚就会被保护，显示不能使用，体现在`cv.Invailid`里面。(*23年3月6日*08时12分)
 _ESP32C3_SPI_PSRAM_PINS = {
     # 12: "SPIHD",
     # 13: "SPIWP",
